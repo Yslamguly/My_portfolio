@@ -1,0 +1,18 @@
+.nav-background{
+    background-image: linear-gradient(60deg, #ffffff 40%,#00cdac  calc(75% + 2px))
+}
+@media screen and (max-width: 795px) {
+    .nav-background{
+        background-image: linear-gradient(60deg, #ffffff 30%,#22313F  calc(75% + 2px))
+    }
+}
+@media screen and (max-width: 578px) {
+    .nav-background{
+        background-image: linear-gradient(60deg, #ffffff 25%,#22313F  calc(75% + 2px))
+    }
+}
+@media screen and (max-width: 414px) {
+    .nav-background{
+        background-image: linear-gradient(60deg, #ffffff 20%,#22313F  calc(75% + 2px))
+    }
+}
