@@ -1,6 +1,7 @@
 import React from "react";
 import './Aboout.css'
 import MyImage from "../../Images/IMG_5216.jpg";
+import MyResume from '../../assets/Yslamguly-Resume Junior.pdf'
 
 
 const About = () => {
@@ -30,6 +31,10 @@ const About = () => {
                                     ergkejrgn
                                     ergjkbekgbegbe jgkjebgekgjebgkegb ekrgberkgerbg jkerbgerkg ejkrgberkjgerg
                                 </p>
+                                <a className={'white ba bw1 pr1 pl1 tc mt4  h-100 dib link ' +
+                                'hover-bg-light-green hover-white '}
+                                   href={MyResume} target="_blank" rel="noreferrer" title="CV">View Resume
+                                </a>
                             </div>
                         </div>
                     </div>
