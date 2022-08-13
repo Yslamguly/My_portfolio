@@ -4,7 +4,7 @@ import MyResume from '../../assets/Yslamguly-Resume Junior.pdf'
 
 const NavBar = () => {
     return (
-        <nav className="dt w-100 border-box pa3 ph5-ns nav-background z-1 fixed">
+        <nav className="dt w-100 border-box pa3 ph5-ns nav-background z-max fixed">
             <div className="dtc v-mid w-75 tr">
                 <a className="link dim white f6 f5-ns dib mr3 mr4-ns" href={MyResume} target="_blank" rel="noreferrer" title="CV">View Resume</a>
                 <a className="link dim white f6 f5-ns dib mr3 mr4-ns"
