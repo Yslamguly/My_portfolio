@@ -4,13 +4,13 @@ import MyImage from "../../Images/IMG_5216.jpg";
 import MyResume from '../../assets/Yslamguly-Resume Junior.pdf'
 
 
-const About = () => {
+const About = ({titleName}) => {
     return (
         <section id={'about'}>
             <div className="mw9 center ph3-ns">
                 <div className="cf ph2-ns">
                     <div className="fl w-100 pa2">
-                        <div className=" pv4"><h1 className={'section-title'} style={{marginTop: '2rem'}}>About me</h1>
+                        <div className=" pv4"><h1 className={'section-title'} style={{marginTop: '2rem'}}>{titleName}</h1>
                         </div>
                     </div>
                 </div>
@@ -22,10 +22,10 @@ const About = () => {
                         </div>
                         <div className="fl w-100 w-50-ns pa2">
                             <div className="pt5-ns pt3-m pt0-m tl-ns tc lh-copy ">
-                                <p className={'pt3'}>Ewrklnfkejrbgkrebgekrbge kjrbgekrbgekrg erkgnerjkgnerjkg
+                                <p className={'pt3 white'}>Ewrklnfkejrbgkrebgekrbge kjrbgekrbgekrg erkgnerjkgnerjkg
                                     erkgjnerjgknerg erkgnjerkjgre g er ge
                                     efbehrfberhjgfbehjgerbger gejhbgejhgbrejhgberjgberjger grjhbergjergreger</p>
-                                <p className={'pt3'}>Rejnfgejkrg ekjrgberhkg gkerbgekrgnrejkq gkgjqnrgj rkegjnregk
+                                <p className={'pt3 white'}>Rejnfgejkrg ekjrgberhkg gkerbgekrgnrejkq gkgjqnrgj rkegjnregk
                                     ergkejnrjge
                                     rkgkregerng
                                     ergkejrgn

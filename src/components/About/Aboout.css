@@ -51,7 +51,10 @@
 }
 /*Mobile*/
 @media screen and (max-width:480px) {
-
+    .my-image{
+        width: 300px;
+        height: 230px;
+    }
 }
 /*laptops*/
 @media screen and (max-width: 666px) {
