@@ -24,3 +24,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+  width: 100%;
+}
+img{
+  height: 60%;
+}
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 4.5rem 0 0;
+  text-transform: uppercase;
+  width: 100%;
+}
