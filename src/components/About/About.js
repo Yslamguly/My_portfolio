@@ -10,7 +10,8 @@ const About = ({titleName}) => {
             <div className="mw9 center ph3-ns">
                 <div className="cf ph2-ns">
                     <div className="fl w-100 pa2">
-                        <div className=" pv4"><h1 className={'section-title'} style={{marginTop: '2rem'}}>{titleName}</h1>
+                        <div className=" pv4"><h1 className={'section-title'}
+                                                  style={{marginTop: '2rem'}}>{titleName}</h1>
                         </div>
                     </div>
                 </div>
@@ -22,17 +23,16 @@ const About = ({titleName}) => {
                         </div>
                         <div className="fl w-100 w-50-ns pa2">
                             <div className="pt5-ns pt3-m pt0-m tl-ns tc lh-copy ">
-                                <p className={'pt3 white'}>Ewrklnfkejrbgkrebgekrbge kjrbgekrbgekrg erkgnerjkgnerjkg
-                                    erkgjnerjgknerg erkgnjerkjgre g er ge
-                                    efbehrfberhjgfbehjgerbger gejhbgejhgbrejhgberjgberjger grjhbergjergreger</p>
-                                <p className={'pt3 white'}>Rejnfgejkrg ekjrgberhkg gkerbgekrgnrejkq gkgjqnrgj rkegjnregk
-                                    ergkejnrjge
-                                    rkgkregerng
-                                    ergkejrgn
-                                    ergjkbekgbegbe jgkjebgekgjebgkegb ekrgberkgerbg jkerbgerkg ejkrgberkjgerg
+                                <p className={'pt3 white'}>A third-year Computer Science student at <a
+                                    href={'https://uni-eszterhazy.hu'}
+                                    className={'link white di dim underline'}>EKCU</a>, Hungary. I am passionate about
+                                    developing scalable and responsive web-applications to solve problems that delight
+                                    end-users.</p>
+                                <p className={'pt3 white'}>I am looking for a role where I can learn and grow as a
+                                    software developer with experienced team members
                                 </p>
-                                <a className={'white ba bw1 pr1 pl1 tc mt4  h-100 dib link ' +
-                                'hover-bg-light-green hover-white '}
+                                <a className={'white  pr1 pl1 tc mt4  h-100 dib link ' +
+                                'hover-bg-white aqua-blue  '}
                                    href={MyResume} target="_blank" rel="noreferrer" title="CV">View Resume
                                 </a>
                             </div>
