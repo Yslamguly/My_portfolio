@@ -1,6 +1,5 @@
 import React from "react";
 import Tilty from 'react-tilty';
-import ProjectPhoto from '../../Images/project.0b14f8de.jpg'
 import './Projects.css'
 
 const Projects = ({projectTitle,projectDescription,sourceCode,seeLive,image}) => {
@@ -8,7 +7,7 @@ const Projects = ({projectTitle,projectDescription,sourceCode,seeLive,image}) =>
         <section id={'projects'} className={''}>
             <div className="mw9 center ph3-ns pt4">
                 <div className="cf ph2-ns">
-                    <div className="fl w-40-ns w-100-m pa2">
+                    <div className="fl w-40-ns w-100-m pa2 pr5 ">
                         <div className="flex flex-column">
                             <h1 className={'tl'}>{projectTitle}</h1>
                             <p className={'tl lh-copy'}>{projectDescription}</p>
@@ -23,8 +22,8 @@ const Projects = ({projectTitle,projectDescription,sourceCode,seeLive,image}) =>
                             </div>
                         </div>
                     </div>
-                    <div className="fl w-60-ns w-100-m pa2">
-                        <Tilty glare={true} maxGlare={1} perspective={5500}>
+                    <div className="fl w-60-ns w-100-m pa2 pr5">
+                        <Tilty glare={true} maxGlare={1} perspective={7000}>
                         <img src={image} className={'project-image'}
                                                         alt="me"/>
                         </Tilty>

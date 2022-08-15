@@ -48,3 +48,11 @@ img{
   width: 100%;
   color: #272341;
 }
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  width:100%;
+  height: 300px;
+}
