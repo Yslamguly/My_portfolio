@@ -12,11 +12,10 @@ const Projects = ({projectTitle,projectDescription,sourceCode,seeLive,image}) =>
                             <h1 className={'tl'}>{projectTitle}</h1>
                             <p className={'tl lh-copy'}>{projectDescription}</p>
                             <div>
-                                <a className={'tc ml4 fl mt4 w-25 h-100 dib link ' +
-                                'hover-bg-light-green hover-white '}
+                                <a className={'tc ml4 fl mt4 w-25 h-100 dib link aqua-blue fw6'}
                                    href={sourceCode}>Source Code
                                 </a>
-                                <a className={' tc mt4 w-25 h-100 dib link dark-green'}
+                                <a className={' tc mt4 w-25 h-100 dib link aqua-blue fw6'}
                                    href={seeLive}>See Live
                                 </a>
                             </div>
