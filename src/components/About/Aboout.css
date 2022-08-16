@@ -10,6 +10,8 @@
 .my-image{
     width: 400px;
     height: 300px;
+    object-position: 100% 0;
+    object-fit: cover;
 }
 .about-wrapper{
     display: flex;
