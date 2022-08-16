@@ -2,7 +2,6 @@ import React from "react";
 import './Aboout.css'
 import MyImage from "../../Images/IMG_5216-min.jpg";
 import MyResume from '../../assets/Yslamguly-Resume Junior.pdf'
-import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade';
 
