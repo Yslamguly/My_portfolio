@@ -3,9 +3,9 @@ import Landing from "./components/Landing/Landing";
 import React from "react";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import BackgroundGenerator from '../src/Images/BackgroundGenerator.png'
-import BooksInventory from '../src/Images/BooksInventory.png';
-import FaceDetector from '../src/Images/FaceDetector.png'
+import BackgroundGenerator from '../src/Images/BackgroundGeneratorCompressed.png'
+import BooksInventory from '../src/Images/BooksInventory-min.png';
+import FaceDetector from '../src/Images/FaceDetectorCompressed.png'
 import Footer from "./components/Footer/Footer";
 
 function App() {
