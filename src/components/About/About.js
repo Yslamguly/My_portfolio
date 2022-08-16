@@ -4,6 +4,7 @@ import MyImage from "../../Images/IMG_5216.jpg";
 import MyResume from '../../assets/Yslamguly-Resume Junior.pdf'
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 
 const About = ({titleName}) => {
@@ -19,15 +20,15 @@ const About = ({titleName}) => {
                 </div>
                 <div className="mw9 center ph3-ns">
                     <div className="cf ph2-ns">
-                        <Zoom>
+                        <Fade bottom>
                             <div className="fl w-100 w-50-ns pa2">
                                 <div className=" pv4"><img src={MyImage} className={'br4 grow shadow-5 my-image'}
                                                            alt="me"/></div>
                             </div>
-                        </Zoom>
+                        </Fade>
                         <div className="fl w-100 w-50-ns pa2">
-                                <Slide right cascade>
-                            <div className="pt5-ns pt3-m pt0-m tl-ns tc lh-copy ">
+                            <Slide bottom cascade>
+                                <div className="pt5-ns pt3-m pt0-m tl-ns tc lh-copy ">
                                     <p className={'pt3 white'}>A third-year Computer Science student at <a
                                         href={'https://uni-eszterhazy.hu'}
                                         className={'link white di dim underline'}>EKCU</a>, Hungary. I am passionate
@@ -38,12 +39,12 @@ const About = ({titleName}) => {
                                     <p className={'pt3 white'}>I am looking for a role where I can learn and grow as a
                                         software developer with experienced team members
                                     </p>
-                                <a className={'white ba bw1  pr1 pl1 tc mt4  h-100 dib link ' +
-                                'hover-bg-white aqua-blue  '}
-                                   href={MyResume} target="_blank" rel="noreferrer" title="CV">View Resume
-                                </a>
-                            </div>
-                                </Slide>
+                                    <a className={'white ba bw1  pr1 pl1 tc mt4  h-100 dib link ' +
+                                    'hover-bg-white aqua-blue  '}
+                                       href={MyResume} target="_blank" rel="noreferrer" title="CV">View Resume
+                                    </a>
+                                </div>
+                            </Slide>
                         </div>
                     </div>
                 </div>
