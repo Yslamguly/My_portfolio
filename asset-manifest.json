@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/My_portfolio/static/css/main.ca87a6c5.css",
-    "main.js": "/My_portfolio/static/js/main.97c16531.js",
+    "main.js": "/My_portfolio/static/js/main.ed466a6f.js",
     "static/js/787.128fc6e9.chunk.js": "/My_portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/BooksInventory.png": "/My_portfolio/static/media/BooksInventory.20693c30e06f8ca472d7.png",
-    "static/media/BackgroundGenerator.png": "/My_portfolio/static/media/BackgroundGenerator.1209955537475c5b705b.png",
-    "static/media/FaceDetector.png": "/My_portfolio/static/media/FaceDetector.eef036d4fcfe0f1c26ea.png",
-    "static/media/IMG_5216.jpg": "/My_portfolio/static/media/IMG_5216.6577f7e5da8f6c2b5b78.jpg",
-    "static/media/IMG_4322.jpg": "/My_portfolio/static/media/IMG_4322.c812c768c50f5961121b.jpg",
+    "static/media/BackgroundGeneratorCompressed.png": "/My_portfolio/static/media/BackgroundGeneratorCompressed.8b0c229708f6e8993d78.png",
+    "static/media/IMG_5216-min.jpg": "/My_portfolio/static/media/IMG_5216-min.38f1fc5163cb7eec88cb.jpg",
+    "static/media/BooksInventory-min.png": "/My_portfolio/static/media/BooksInventory-min.db0c5ab688a67bc86ee1.png",
     "static/media/Yslamguly-Resume Junior.pdf": "/My_portfolio/static/media/Yslamguly-Resume Junior.292212c75b0328b07b19.pdf",
+    "static/media/IMG_4322-min.jpg": "/My_portfolio/static/media/IMG_4322-min.a3a19cad020f64a85726.jpg",
+    "static/media/FaceDetectorCompressed.png": "/My_portfolio/static/media/FaceDetectorCompressed.aa0b7288a5552a2dddb3.png",
     "index.html": "/My_portfolio/index.html",
     "main.ca87a6c5.css.map": "/My_portfolio/static/css/main.ca87a6c5.css.map",
-    "main.97c16531.js.map": "/My_portfolio/static/js/main.97c16531.js.map",
+    "main.ed466a6f.js.map": "/My_portfolio/static/js/main.ed466a6f.js.map",
     "787.128fc6e9.chunk.js.map": "/My_portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca87a6c5.css",
-    "static/js/main.97c16531.js"
+    "static/js/main.ed466a6f.js"
   ]
 }
