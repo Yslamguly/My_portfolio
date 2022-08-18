@@ -28,7 +28,7 @@ function App() {
                 seeLive={'https://yslamguly.github.io/ReactBackgroundGenerator/'} image={BackgroundGenerator}/>
             <Projects
                 projectDescription={'A University project where we developed a full-stack application with PHP, JavaScript and MySQL. ' +
-                'This project includes register, sign in and image upload. ' +
+                'This project includes register, sign in, session management and image upload. ' +
                 'A user can perform CRUD operations on the books that have been added by him/her.'}
                 projectTitle={'Books Inventory'} sourceCode={'https://github.com/Yslamguly/BooksInventory'}
                 seeLive={'#about'} image={BooksInventory}/>

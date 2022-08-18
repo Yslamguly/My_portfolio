@@ -1,6 +1,6 @@
 import React from "react";
 import './NavBar.css'
-import MyResume from '../../assets/Yslamguly-Resume Junior.pdf'
+import MyResume from '../../assets/Yslamguly Pirgulyyyev.pdf'
 
 const NavBar = () => {
     return (
