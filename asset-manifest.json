@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/My_portfolio/static/css/main.ca87a6c5.css",
-    "main.js": "/My_portfolio/static/js/main.2353a8b0.js",
+    "main.js": "/My_portfolio/static/js/main.acd2bca4.js",
     "static/js/787.128fc6e9.chunk.js": "/My_portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/BackgroundGeneratorCompressed.png": "/My_portfolio/static/media/BackgroundGeneratorCompressed.8b0c229708f6e8993d78.png",
     "static/media/IMG_5216-min.jpg": "/My_portfolio/static/media/IMG_5216-min.38f1fc5163cb7eec88cb.jpg",
     "static/media/BooksInventory-min.png": "/My_portfolio/static/media/BooksInventory-min.db0c5ab688a67bc86ee1.png",
     "static/media/IMG_4322-min.jpg": "/My_portfolio/static/media/IMG_4322-min.a3a19cad020f64a85726.jpg",
-    "static/media/Yslamguly Pirgulyyev": "/My_portfolio/static/media/Yslamguly Pirgulyyev.4e8f77d76236348289e6",
+    "static/media/Yslamguly Pirgulyyev.pdf": "/My_portfolio/static/media/Yslamguly Pirgulyyev.4e8f77d76236348289e6.pdf",
     "static/media/FaceDetectorCompressed.png": "/My_portfolio/static/media/FaceDetectorCompressed.400179673bb7f8bff78d.png",
     "index.html": "/My_portfolio/index.html",
     "main.ca87a6c5.css.map": "/My_portfolio/static/css/main.ca87a6c5.css.map",
-    "main.2353a8b0.js.map": "/My_portfolio/static/js/main.2353a8b0.js.map",
+    "main.acd2bca4.js.map": "/My_portfolio/static/js/main.acd2bca4.js.map",
     "787.128fc6e9.chunk.js.map": "/My_portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca87a6c5.css",
-    "static/js/main.2353a8b0.js"
+    "static/js/main.acd2bca4.js"
   ]
 }
