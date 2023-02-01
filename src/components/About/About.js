@@ -35,8 +35,9 @@ const About = ({titleName}) => {
                                         developing scalable and responsive web-applications to solve problems that
                                         delight
                                         end-users.</p>
-                                    <p className={'pt3 white'}>I am looking for a role where I can learn and grow as a
-                                        software developer with experienced team members
+                                    <p className={'pt3 white'}>I am eager to learn, improve my skills and gain hands-on experience in the industry.
+                                        I am well-versed in at least one programming language and familiar with various development tools and techniques.
+                                        I am a quick learner and can work well both independently and as part of a team.
                                     </p>
                                     <a className={'white ba bw1  pr1 pl1 tc mt4  h-100 dib link ' +
                                     'hover-bg-white aqua-blue  '}
