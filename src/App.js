@@ -31,7 +31,7 @@ function App() {
                 'This project includes register, sign in, session management and image upload. ' +
                 'A user can perform CRUD operations on the books that have been added by him/her.'}
                 projectTitle={'Books Inventory'} sourceCode={'https://github.com/Yslamguly/BooksInventory'}
-                seeLive={'#about'} image={BooksInventory}/>
+                seeLive={null} image={BooksInventory}/>
             <Projects projectDescription={'Full-stack web application with sign in and register. ' +
             'This app detects faces on the link you input using Clarifai API. ' +
             'Technologies used: NodeJS, ReactJS, PostgreSQL. ' +

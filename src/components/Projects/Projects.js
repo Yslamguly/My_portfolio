@@ -17,9 +17,10 @@ const Projects = ({projectTitle, projectDescription, sourceCode, seeLive, image}
                                     <a className={'tc ml4 fl mt4 w-25 h-100 dib link aqua-blue fw6'}
                                        href={sourceCode}>Source Code
                                     </a>
-                                    <a className={' tc mt4 w-25 h-100 dib link aqua-blue fw6'}
-                                       href={seeLive}>See Live
-                                    </a>
+                                    {seeLive !== null &&
+                                        <a className={' tc mt4 w-25 h-100 dib link aqua-blue fw6'}
+                                           href={seeLive}>See Live
+                                        </a>}
                                 </div>
                             </Fade>
                         </div>
