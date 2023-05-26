@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/My_portfolio/static/css/main.ca87a6c5.css",
-    "main.js": "/My_portfolio/static/js/main.e36e53f2.js",
+    "main.js": "/My_portfolio/static/js/main.53979974.js",
     "static/js/787.128fc6e9.chunk.js": "/My_portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/ScholarshipFinder.png": "/My_portfolio/static/media/ScholarshipFinder.57e048a0bbe33ec83488.png",
+    "static/media/Bookshop.png": "/My_portfolio/static/media/Bookshop.0b5fd56c230bb811bf7f.png",
     "static/media/BackgroundGeneratorCompressed.png": "/My_portfolio/static/media/BackgroundGeneratorCompressed.8b0c229708f6e8993d78.png",
     "static/media/IMG_5216-min.jpg": "/My_portfolio/static/media/IMG_5216-min.38f1fc5163cb7eec88cb.jpg",
-    "static/media/BooksInventory-min.png": "/My_portfolio/static/media/BooksInventory-min.db0c5ab688a67bc86ee1.png",
     "static/media/IMG_4322-min.jpg": "/My_portfolio/static/media/IMG_4322-min.a3a19cad020f64a85726.jpg",
     "static/media/CV - Yslamguly Pirgulyyev.pdf": "/My_portfolio/static/media/CV - Yslamguly Pirgulyyev.5ae46631ed25cc7b1ba6.pdf",
-    "static/media/FaceDetectorCompressed.png": "/My_portfolio/static/media/FaceDetectorCompressed.400179673bb7f8bff78d.png",
     "index.html": "/My_portfolio/index.html",
     "main.ca87a6c5.css.map": "/My_portfolio/static/css/main.ca87a6c5.css.map",
-    "main.e36e53f2.js.map": "/My_portfolio/static/js/main.e36e53f2.js.map",
+    "main.53979974.js.map": "/My_portfolio/static/js/main.53979974.js.map",
     "787.128fc6e9.chunk.js.map": "/My_portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca87a6c5.css",
-    "static/js/main.e36e53f2.js"
+    "static/js/main.53979974.js"
   ]
 }
