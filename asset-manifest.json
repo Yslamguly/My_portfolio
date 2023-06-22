@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My_portfolio/static/css/main.ca87a6c5.css",
-    "main.js": "/My_portfolio/static/js/main.53979974.js",
+    "main.js": "/My_portfolio/static/js/main.838b9745.js",
     "static/js/787.128fc6e9.chunk.js": "/My_portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/ScholarshipFinder.png": "/My_portfolio/static/media/ScholarshipFinder.57e048a0bbe33ec83488.png",
     "static/media/Bookshop.png": "/My_portfolio/static/media/Bookshop.0b5fd56c230bb811bf7f.png",
@@ -11,11 +11,11 @@
     "static/media/CV - Yslamguly Pirgulyyev.pdf": "/My_portfolio/static/media/CV - Yslamguly Pirgulyyev.5ae46631ed25cc7b1ba6.pdf",
     "index.html": "/My_portfolio/index.html",
     "main.ca87a6c5.css.map": "/My_portfolio/static/css/main.ca87a6c5.css.map",
-    "main.53979974.js.map": "/My_portfolio/static/js/main.53979974.js.map",
+    "main.838b9745.js.map": "/My_portfolio/static/js/main.838b9745.js.map",
     "787.128fc6e9.chunk.js.map": "/My_portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca87a6c5.css",
-    "static/js/main.53979974.js"
+    "static/js/main.838b9745.js"
   ]
 }
