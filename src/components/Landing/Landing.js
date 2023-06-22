@@ -7,7 +7,7 @@ const Landing = () => {
         <section>
             <div className={'container fw7 pt5  pl3 pr3 font'}>
                 <h1 className={'tl ml3 pr6 animate__animated animate__slideInLeft animate__slow'}>Hi, my name is <span className={'light-green'}>Yslamguly</span>
-                    <br/>I'm a CS student. <br/>
+                    <br/>I'm a software developer. <br/>
                     <span className={'about-me-link'}>
                         <a className={'light-green ba bw1 pr1 pl1 tc mt3 ml3 h-100 dib link ' +
                         'hover-bg-light-green hover-white ' +

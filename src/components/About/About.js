@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 
 const About = ({titleName}) => {
     return (
-        <section id={'about'}>
+        <section id={'about'} className={'animate__animated animate__slideInLeft animate__delay-1s'}>
             <div className="mw9 center ph3-ns">
                 <div className="cf ph2-ns">
                     <div className="fl w-100 pa2">
@@ -28,7 +28,7 @@ const About = ({titleName}) => {
                         <div className="fl w-100 w-50-ns pa2">
                             <Slide bottom cascade>
                                 <div className="pt5-ns pt3-m pt0-m tl-ns tc lh-copy ">
-                                    <p className={'pt3 white'}>A third-year Computer Science student at <a
+                                    <p className={'pt3 white'}>A graduate Computer Science student from <a
                                         href={'https://uni-eszterhazy.hu'}
                                         className={'link white di dim underline'}>EKCU</a>, Hungary. I am passionate
                                         about
