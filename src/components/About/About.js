@@ -4,19 +4,14 @@ import MyImage from "../../Images/IMG_5216-min.jpg";
 import MyResume from '../../assets/CV - Yslamguly Pirgulyyev-2.pdf'
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade';
+import {Title} from "../Title";
 
 
-const About = ({titleName}) => {
+const About = () => {
     return (
         <section id={'about'} className={'animate__animated animate__slideInLeft animate__delay-1s'}>
             <div className="mw9 center ph3-ns">
-                <div className="cf ph2-ns">
-                    <div className="fl w-100 pa2">
-                        <div className=" pv4"><h1 className={'section-title'}
-                                                  style={{marginTop: '2rem'}}>{titleName}</h1>
-                        </div>
-                    </div>
-                </div>
+                <Title name={'About me'}/>
                 <div className="mw9 center ph3-ns">
                     <div className="cf ph2-ns">
                         <Fade bottom>

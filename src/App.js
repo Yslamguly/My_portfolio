@@ -5,18 +5,14 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import {ProjectItems} from "./components/Projects/ProjectItems";
+import {Title} from "./components/Title";
 
 function App() {
     return (
         <div className="App">
             <Landing/>
-            <About titleName={'About me'}/>
-            <div className="cf ph2-ns">
-                <div className="fl w-100 pa2">
-                    <div className=" pv4"><h1 className={'section-title'} style={{marginTop: '2rem'}}>Projects</h1>
-                    </div>
-                </div>
-            </div>
+            <About/>
+            <Title name={'Projects'}/>
             {ProjectItems.map((project)=>(
                 <Projects projectDescription={project.projectDescription}
                           projectTitle={project.projectTitle}
