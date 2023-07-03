@@ -1,30 +1,38 @@
 import BackgroundGenerator from '../../Images/BackgroundGeneratorCompressed.png'
 import Bookshop from '../../Images/Bookshop.png'
 import ScholarshipFinder  from '../../Images/ScholarshipFinder.png'
+import {AiFillHtml5} from "react-icons/ai";
+import {FaCss3} from "@react-icons/all-files/fa/FaCss3";
+import {IoLogoJavascript} from "react-icons/io";
+import {FaReact} from "@react-icons/all-files/fa/FaReact";
+import {SiRedux} from "@react-icons/all-files/si/SiRedux";
+import {FaNodeJs} from "@react-icons/all-files/fa/FaNodeJs";
+import {SiTailwindcss} from "@react-icons/all-files/si/SiTailwindcss";
+import {SiPostgresql} from "@react-icons/all-files/si/SiPostgresql";
+import {AiOutlineGoogle} from "@react-icons/all-files/ai/AiOutlineGoogle";
+import {FaStripe} from "@react-icons/all-files/fa/FaStripe";
+import {SiCsharp} from "@react-icons/all-files/si/SiCsharp";
 export const ProjectItems = [
     {
-        projectDescription: 'An online bookshop, where browsing and buying books is made easy and enjoyable. ' +
-            'With secure Stripe payment integration, you can shop with confidence, using your preferred payment method. ' +
-            'User-friendly interface, powered by JSON Web Tokens (JWT) and Google authentication, ensures seamless login and account access. ' +
-            'A collection of books can be discovered with the convenience of pagination, allowing to effortlessly navigate through pages. ' +
-            'Forgot your password? No worries. Password reset and email verification features are covered. ' +
-            'Favorite books can be added to the shopping cart and search can be customized with responsive design, and filter and sort by genre, author, price and etc.',
+        projectDescription: 'Welcome to an online bookstore! ' +
+            'Immerse yourself in a world of literary wonders from the comfort of your own screen. ' +
+            'Explore our vast collection of books spanning various genres, eras, and themes. ' +
+            'Whether you seek timeless classics, gripping mysteries, or heartwarming tales, this digital emporium has something to captivate every reader.',
         projectTitle: 'Online Bookshop' ,
         sourceCode: 'https://github.com/Yslamguly/bookshop_front',
         seeLive:null,
         image:Bookshop,
+        usedTechnologies: [ AiFillHtml5, SiTailwindcss, IoLogoJavascript, FaReact, FaNodeJs, SiPostgresql, AiOutlineGoogle , FaStripe]
     },
     {
-        projectDescription: 'The Scholarship Finder Web App is a user-friendly platform designed to help students find and manage scholarships. ' +
-            'Developed collaboratively by a team of five skilled developers, the frontend of the web application was built using React, while the backend was powered by .NET 6. ' +
-            'This powerful combination of technologies provides a seamless and efficient experience for students in their scholarship search. ' +
-            'The app offers user registration and login functionality, allowing students to access personalized features. ' +
-            'Additionally, the wishlist feature enables users to save scholarships of interest for future reference. ' +
-            'With the aid of a powerful search bar, students can easily discover a wide range of scholarship opportunities. ',
+        projectDescription: 'Unlock the door to educational opportunities with the scholarship finder web app. ' +
+            `Designed and developed to simplify the search for financial aid, ` +
+            'this platform connects students with a comprehensive database of scholarships tailored to their unique needs and aspirations.',
         projectTitle: 'Scholarship Finder' ,
         sourceCode: 'https://github.com/Yslamguly/ScholarshipFinder',
         seeLive: null,
         image:ScholarshipFinder,
+        usedTechnologies: [ AiFillHtml5, FaCss3 ,IoLogoJavascript, FaReact, SiRedux, SiCsharp, SiPostgresql]
     },
     {
         projectDescription: 'This app helps to generate gradient color based on 2 colors.' +
@@ -33,6 +41,7 @@ export const ProjectItems = [
         projectTitle:'Background Generator',
         sourceCode: 'https://github.com/Yslamguly/ReactBackgroundGenerator',
         seeLive:'https://yslamguly.github.io/ReactBackgroundGenerator/',
-        image:BackgroundGenerator
+        image:BackgroundGenerator,
+        usedTechnologies: [ AiFillHtml5, FaCss3, IoLogoJavascript, FaReact]
     }
 ]

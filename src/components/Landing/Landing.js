@@ -1,10 +1,9 @@
 import React from "react";
 import './Landing.css'
-import MyImage from '../../Images/IMG_4322-min.jpg'
 
 const Landing = () => {
     return (
-        <section>
+        <section id={'landing'}>
             <div className={'container fw7 pt5  pl3 pr3 font'}>
                 <h1 className={'tl ml3 pr6 animate__animated animate__slideInLeft animate__slow'}>Hi, my name is <span className={'light-green'}>Yslamguly</span>
                     <br/>I'm a graduate computer scientist. <br/>
