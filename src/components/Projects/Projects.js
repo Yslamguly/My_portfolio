@@ -4,7 +4,7 @@ import './Projects.css'
 import Fade from 'react-reveal/Fade';
 import {ProjectItems} from "./ProjectItems";
 
-const Projects = ({projectTitle, projectDescription, sourceCode, seeLive, image}) => {
+const Projects = () => {
     return (
         <section id={'projects'}>
             {ProjectItems.map((project)=>(
