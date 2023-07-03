@@ -3,24 +3,19 @@ import Landing from "./components/Landing/Landing";
 import React from "react";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer/Footer";
-import {ProjectItems} from "./components/Projects/ProjectItems";
+import Contact from "./components/Contact/Contact";
 import {Title} from "./components/Title";
-
+import {Skills} from "./components/Skills/Skils";
 function App() {
     return (
         <div className="App">
             <Landing/>
             <About/>
+            <Title name={'Skills & Tools'}/>
+            <Skills/>
             <Title name={'Projects'}/>
-            {ProjectItems.map((project)=>(
-                <Projects projectDescription={project.projectDescription}
-                          projectTitle={project.projectTitle}
-                          sourceCode={project.sourceCode}
-                          seeLive={project.seeLive}
-                          image={project.image}/>
-            ))}
-            <Footer/>
+            <Projects/>
+            <Contact/>
         </div>
     );
 }

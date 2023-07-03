@@ -9,7 +9,7 @@ import {Title} from "../Title";
 
 const About = () => {
     return (
-        <section id={'about'} className={'animate__animated animate__slideInLeft animate__delay-1s'}>
+        <section id={'about'}>
             <div className="mw9 center ph3-ns">
                 <Title name={'About me'}/>
                 <div className="mw9 center ph3-ns">
@@ -37,6 +37,10 @@ const About = () => {
                                     <a className={'white ba bw1  pr1 pl1 tc mt4  h-100 dib link ' +
                                     'hover-bg-white aqua-blue  '}
                                        href={MyResume} target="_blank" rel="noreferrer" title="CV">View Resume
+                                    </a>
+                                    <a className={'white ba bw1 ml3 pr1 pl1 tc mt4  h-100 dib link ' +
+                                    'hover-bg-white aqua-blue  '}
+                                       href={'#contact'} rel="noreferrer" title="reach me">Reach me out
                                     </a>
                                 </div>
                             </Slide>

@@ -46,7 +46,7 @@
     background-image: linear-gradient(135deg, #02aab0, #00cdac);
     border-top: 0;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85.8%, 0% 100%);
     color: #fff;
     height: 100%;
     padding-bottom: 10%;
