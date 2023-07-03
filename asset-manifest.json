@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/My_portfolio/static/css/main.cd57ab7c.css",
-    "main.js": "/My_portfolio/static/js/main.b741be74.js",
+    "main.js": "/My_portfolio/static/js/main.9421ddb4.js",
     "static/js/787.128fc6e9.chunk.js": "/My_portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/ScholarshipFinder.png": "/My_portfolio/static/media/ScholarshipFinder.57e048a0bbe33ec83488.png",
     "static/media/Bookshop.png": "/My_portfolio/static/media/Bookshop.0b5fd56c230bb811bf7f.png",
     "static/media/BackgroundGeneratorCompressed.png": "/My_portfolio/static/media/BackgroundGeneratorCompressed.8b0c229708f6e8993d78.png",
     "static/media/IMG_5216-min.jpg": "/My_portfolio/static/media/IMG_5216-min.38f1fc5163cb7eec88cb.jpg",
-    "static/media/CV - Yslamguly Pirgulyyev-2.pdf": "/My_portfolio/static/media/CV - Yslamguly Pirgulyyev-2.fff42224f08b0058f9f3.pdf",
+    "static/media/CV - Yslamguly Pirgulyyev-2.pdf": "/My_portfolio/static/media/CV - Yslamguly Pirgulyyev-2.fa48f9e3743217b6a970.pdf",
     "index.html": "/My_portfolio/index.html",
     "main.cd57ab7c.css.map": "/My_portfolio/static/css/main.cd57ab7c.css.map",
-    "main.b741be74.js.map": "/My_portfolio/static/js/main.b741be74.js.map",
+    "main.9421ddb4.js.map": "/My_portfolio/static/js/main.9421ddb4.js.map",
     "787.128fc6e9.chunk.js.map": "/My_portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd57ab7c.css",
-    "static/js/main.b741be74.js"
+    "static/js/main.9421ddb4.js"
   ]
 }
